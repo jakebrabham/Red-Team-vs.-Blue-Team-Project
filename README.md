@@ -8,34 +8,29 @@ Then, I interpreted my log data to suggest mitigation measures for each exploit 
 
 
 In this project, I applied knowledge of the following skills and tools:
-
-
-Penetration testing with Kali Linux.
-
-Log and incident analysis with Kibana.
-
-System hardening and configuration.
-
-Reporting, documentation, and communication.
+- Penetration testing with Kali Linux.
+- Log and incident analysis with Kibana.
+- System hardening and configuration.
+- Reporting, documentation, and communication.
 
 
 Lab Environment
 
 In this unit, I used the Red vs Blue lab environment located in Windows Azure Lab Services. 
-Opened the Hyper-V Manager to access the nested machines:
+Used the Hyper-V Manager to access the nested machines:
 
-ELK machine credentials: The same ELK setup that you created in Project 1. It holds the Kibana dashboards.
-Username: 
-Password: 
-IP Address: 192.168.1.100
+ELK machine credentials: The same ELK setup that I created in Project 1. It holds the Kibana dashboards.
+- Username: 
+- Password: 
+- IP Address: 192.168.1.100
 
 
-Kali: A standard Kali Linux machine for use in the penetration test on Day 1.
-Username: 
-Password: 
-IP Address: 192.168.1.90
+Kali: A standard Kali Linux machine I used in the penetration test on Day 1.
+- Username: 
+- Password: 
+- IP Address: 192.168.1.90
 
 
 Capstone: Filebeat and Metricbeat are installed and will forward logs to the ELK machine.
-IP Address: 192.168.1.105
+- IP Address: 192.168.1.105
 Please note that this VM is in the network solely for the purpose of testing alerts.
